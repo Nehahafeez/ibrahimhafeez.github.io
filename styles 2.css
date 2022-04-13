@@ -1,0 +1,56 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+    } 
+     
+    .head{ 
+        text-align: center; 
+        font-family: Serif; 
+        color: orange; 
+         
+    } 
+     
+    .countryCount { 
+      color: black; 
+    } 
+     
+    #myChart{ 
+      display: inline-block; 
+      margin: 0 auto; 
+      margin-top: 20px; 
+      height: 600px; 
+        
+    } 
+     
+    #myChart{ 
+      display: inline-block; 
+      margin: 0 auto; 
+      margin-top: 20px; 
+      height: 500px; 
+        
+    } 
+     
+    .population, .languages{ 
+      background: orange; 
+      padding: 7 17px; 
+      margin-top: 26px;
+      border: none;
+    } 
+     
+    body{ 
+      background-color:#E8E8E8 
+    } 
+     
+    .spokenText{ 
+      margin-top: 28px; 
+    } 
+     
+    .spokenText { 
+      display: none; 
+    } 
+     
+    .title{ 
+      letter-spacing: 5px; 
+    }
+    
