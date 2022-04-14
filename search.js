@@ -204,8 +204,20 @@ const list = document.querySelector(".character")
 const ascending = document.querySelector("#ascending") 
 const randomWord = document.querySelector("#search-word") 
 const startWord = document.querySelector("#strt-word") 
+
+const htmlString = countries.map((country) => { 
  
+  return ` 
+<li class="character"> 
+<h2>${country}</h2> 
  
+</li> 
+`; 
+}) 
+.join(''); 
+container.innerHTML = htmlString; 
+
+
  
  
 randomWord.addEventListener('click', e => { 

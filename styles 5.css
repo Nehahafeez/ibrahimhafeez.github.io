@@ -5,8 +5,8 @@
     } 
      
     #container-heading { 
-        background-image: url('countries.jpeg'); 
-        height: 400px; 
+        background-image: url('countries.jpg'); 
+        height: 500px; 
     display: flex; 
     flex-direction: column; 
     justify-content: space-around; 
@@ -90,12 +90,12 @@
     } 
      
     li { 
-        background: url("earthmap.jpg"); 
+        background: url("countries.jpeg"); 
         background-size: 100%; 
         border-style: ridge; 
         display: flex; 
         justify-content: center; 
         align-items: center; 
-        padding: 20px; 
+        padding: 30px; 
         color: #eaeaea; 
     } 
