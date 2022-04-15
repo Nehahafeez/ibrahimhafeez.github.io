@@ -3010,7 +3010,7 @@ const config2 = {
  myChart = new Chart ( 
    document.getElementById('myChart'), 
    config2) 
-   myChart.style.height = "400px" 
+   myChart.style.height = "500px" 
    } 
  
   function rerenderChart(){ 
@@ -3022,6 +3022,6 @@ const config2 = {
    myChart = new Chart ( 
   document.getElementById('myChart'), 
   config) 
-  myChart.style.height = "400px" 
+  myChart.style.height = "500px" 
   }
 
